@@ -21,7 +21,6 @@ function outputAllItems(items) {
 //   [8, 2, 2]
 function getAllEvens(nums) {
   const evenNums = [];
-
   for (const num of nums) {
     if (num % 2 === 0) {
       evenNums.push(num);

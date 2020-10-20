@@ -2,21 +2,29 @@
 
 
 def output_all_items(items):
-    pass  # TODO: replace this line with your code
+    for item in items:
+        print(item)
 
 
 def get_all_evens(nums):
-    pass  # TODO: replace this line with your code
+
+    return [num for num in nums if num % 2 == 0]
 
 
 def get_odd_indices(items):
-    pass  # TODO: replace this line with your code
+    
+    return [items.index(idx) for idx in items if idx % 2 != 0]
 
 
 def print_as_numbered_list(items):
-    pass  # TODO: replace this line with your code
+    
+    number = 1
+    for item in items:
+        print(f"{number}. {item}")
+        number +=1
 
-
+    print([f"{number}. {item}", number +=1 for item in items])
+    
 def get_range(start, stop):
     pass  # TODO: replace this line with your code
 
